@@ -1,0 +1,17 @@
+# Local datasets (not distributed with public repositories)
+data/*
+!data/.gitkeep
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Local tools and secrets
+.env
+.env.*
+!.env.example
